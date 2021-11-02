@@ -65,7 +65,7 @@ steps:
 - task: DotNetCoreCLI@2
   displayName: Restore project dependencies
   inputs:
-      command: resotre
+      command: restore
       projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
